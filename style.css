@@ -1,0 +1,98 @@
+body {
+  border-color: violet;
+  background-color: #75daad;
+  font-family: montserrat, sans-serif;
+  
+  text-align: center;
+  border: 5px dotted #30475e;
+  
+}
+  
+  h1 {
+  font-size: 35px;
+  text-align:center;
+  color: #45046a; 
+  
+}
+
+p {
+  font-size: 20px;
+  text-align:center;
+  color: #45046a; 
+}
+
+#title {
+   font-weight: bold;
+  text-align: center;
+  font-style: italic;
+}
+
+#description {
+ 
+  text-align: center;
+  margin-top: 75px;
+  Padding: 50px 0px 5px 0px;
+  font-style: italic;
+}
+
+#survey-form {
+text-align: center;
+  display: block;
+  height: auto;
+}
+
+
+.radio {
+  position: relative;
+  left:-27px;
+  padding-bottom: 5px 5ps 5px 5px;
+  display: block;
+}
+
+.checkbox {
+  position: relative;
+  left:-27px;
+  padding-bottom: 5px 5ps 5px 5px;
+  display: block;
+}
+
+.form-group {
+  text-align: center;
+  inline-element: block;
+  
+}
+
+/* Full-width input fields */
+input[type=text], input[type=email], input[type=number] {
+  width: 25%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+#submit {
+  background-color: #45046a;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 25%;
+  opacity: 0.9;
+  border-radius: 12px;
+}
+
+#submit:hover {
+  background-color: gold;
+}
+
+#dropdown, textarea {
+  width: 28%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}

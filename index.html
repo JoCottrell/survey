@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Survey Form</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Survey Form</title>
+  <meta name="description" content="FreeCodeCamp Survey Form">
+  
+  <h1 id="title" class="text-center">Coding Training</h1><h1>Survey</h1>
+  
+
+
+  
+  <p id="description"><strong>Take this short survey to describe your training needs.</strong></p><br>
+  
+   <form id="survey-form">
+    <div class="form-group"> 
+
+      <label class="name labels" id="name-label"> Name:</label><div class="right">
+      <input type="text" id="name" placeholder="Enter your name" class="input" required> 
+    </div>
+  <br> <br>
+  <label class="email labels" id="email-label"> Email:</label>
+  <div class="right"><input type="email" id="email" class="input" required placeholder="Enter your email">
+  </div>
+  <br><br>
+  <label class="number labels" id="number-label"> Age:</label><div class="right">
+    <input id="number" class="input" min="1" max="120" type="number" placeholder="Enter your age">
+</div>
+    <br><br>
+  
+    <!-- dropdown -->
+<label for="dropdown" class="labels"> What are your training needs?</label>
+<div class="right">
+  <select id="dropdown" name="training" class="input">
+    <option value="select"> Select an option </option>
+    <option value="html"> Front end development </option>
+    <option value="css"> Back end development </option>
+    
+  </select>
+</div>
+<br> <br>
+
+<!-- radio buttons -->
+<label class="labels" for="radio"> Preferred learning style?</label>
+<ul class="right" style="list-style-type: none">
+  <li class="radio"> <input name="radio-buttons" value="1" type="radio"><label> Written notes</label></li>
+  <li class="radio"><input name="radio-buttons" value="2" type="radio"><label> Video tutorial</label></li>
+</ul><br><br>
+
+<!-- checkbox -->
+<label for="training" class="labels"> What training do you need? (check all that apply)</label>
+<ul id="training" style="list-style none" class="right" >
+  <li class="checkbox"><label><input type="checkbox" id="HTML" value="1"> HTML</label></li>
+  <li class="checkbox"><label><input type="checkbox" id="CSS" value="2"> CSS</label></li>
+  <li class="checkbox"><label><input type="checkbox" id="Javascript" value="3"> Javascript</label></li>
+  <li class="checkbox"><label><input type="checkbox" id="Bootstrap" value="4"> Bootstrap</label></li>
+  <li class="checkbox"><label><input type="checkbox" id="React" value="5"> React</label></li>
+  <li class="checkbox"><label><input type="checkbox" id="JQuery" value="6"> JQuery</label></li>
+  <li class="checkbox"><label><input type="checkbox" id="tv" value="7"> Sass</label></li>
+</ul><br><br>
+      
+      
+<!-- comments -->
+<label for="submit" class="labels"> Please add any additional information.</label>
+<div>
+<textarea id="textarea" rows="15" columns="1500" class="input right" placeholder="Add your comments"></textarea>
+</div>
+<br> </br>
+<button id="submit" type="submit"> Submit</button><br><br>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
